@@ -41,7 +41,6 @@ Projeto para melhorar minhas skills
 
 <img src="img2.png" align="left">
 
-<br/>
 # Dependências usadas no projeto
 
 [ReactJS](https://reactjs.org/)<br/>
