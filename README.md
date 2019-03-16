@@ -29,6 +29,17 @@ Projeto para melhorar minhas skills
  - Adicionando comentario: `db.hastags.save({nome: "nome-qualquer", comentario: "comentario-qualquer"})`adicione 5 comentários
  - PS: optei por fazer dessa maneiro por motivos de tempo, e o mongoLab estava dando error na aplicação e eu estava sem tempo
   
+# Rotas da aplicação
+  
+### Rota Home
+- acesse: `http://localhost:3000`
+
+<img src="img1" align="left">
+
+### Rota CMS
+- acesse: `http://localhost:3000/cms`
+
+<img src="img2" align="left">
 
 # Dependência usadas no projeto
 
