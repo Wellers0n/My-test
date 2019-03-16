@@ -34,12 +34,12 @@ Projeto para melhorar minhas skills
 ### Rota Home
 - acesse: `http://localhost:3000`
 
-<img src="img1" align="left">
+<img src="img1.png" align="left">
 
 ### Rota CMS
 - acesse: `http://localhost:3000/cms`
 
-<img src="img2" align="left">
+<img src="img2.png" align="left">
 
 # Dependência usadas no projeto
 
