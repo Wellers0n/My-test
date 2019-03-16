@@ -24,7 +24,7 @@ app.use(json());
 
 routes(router)
 
-io.on('connection', socket => {
+io.on('connect', socket => {
     socket.on('envBackend', data => {
         console.log(data)
         socket.broadcast.emit('envFrontend', {nome: data.nome, comentario: data.comentario, verif: true})

@@ -4,7 +4,7 @@ import mongoose from 'mongoose'
 async function getUsersHastag(ctx, next){
     const hastag = ctx.request.body.hastag;
     const users = await usersHastag.find({comentario: {$regex: hastag, $options: 'i'}})
-    // console.log(users)
+    console.log(users)
     try{
         if(users.length === 0){
             return ctx.body = {

@@ -10,6 +10,7 @@
   "dependencies": {
     "lerna": "^3.13.1"
   },
+  "private": true,
   "workspaces": {
     "packages": [
       "packages/*"

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './../style/css/app.css'
 import Logo from './../images/logo.png'
 import Person from './../images/person.png'
-import io from "socket.io-client";
+import io from "socket.io-client"
 
 export default class Home  extends Component {
     constructor(props){
@@ -16,8 +16,7 @@ export default class Home  extends Component {
     }
 
     componentDidMount(){
-        this.socket = io("http://localhost:3001")
-
+        this.socket = io.connect("http://localhost:3001", {reconnect: true})
         this.socket.on("envFrontend", data => {
             console.log('chegou aqui')
             this.setState({
@@ -25,6 +24,9 @@ export default class Home  extends Component {
                 comentario: data.comentario,
                 getTweet: data.verif
             })
+            if(data){
+              setTimeout(() => this.setState({getTweet: false}), 10000)
+            }
         })
 
 

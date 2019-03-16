@@ -46,7 +46,7 @@ export default class Home  extends Component {
     }
 
     componentDidMount(){
-        this.socket = io("http://localhost:3001")
+        this.socket = io.connect("http://localhost:3001", {reconnect: true})
     }
 
 
@@ -63,7 +63,7 @@ export default class Home  extends Component {
                  <div className={'containerUsers'}>
                     {dados.map((user, index)=> {
                         return  <div key={index}>
-                                    - comentario: {user.comentario} <button className={'btnComentario'} onClick={() => this.envTweet(user)}> enviar </button>
+                                    - comentario: {user.comentario} <button className={'btnComentario'} onClick={() => this.envTweet(user)}> >>> </button>
                                 </div>
                     })}
                  </div>
