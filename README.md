@@ -26,7 +26,7 @@ Projeto para melhorar minhas skills
  
  - Vá no terminal e digite: `mongo`
  - Usando o banco dessa aplicação: `use globo`
- - Adicionando comentario: `db.hastags.save({nome: "nome-qualquer", comentario: "comentario-qualquer"})
+ - Adicionando comentario: `db.hastags.save({nome: "nome-qualquer", comentario: "comentario-qualquer"})`adicione 5 comentários
  - PS: optei por fazer dessa maneiro por motivos de tempo, e o mongoLab estava dando error na aplicação e eu estava sem tempo
   
 
