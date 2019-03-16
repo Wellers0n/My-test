@@ -16,6 +16,19 @@ Projeto para melhorar minhas skills
 - Para instalar dependência do projeto: `yarn install`
 - Depois da instalação das dependências rode `yarn start` no diretório padão
 
+# Adicionando comentários no MongoDB
+
+ ### Instalação do Mongodb no seu PC
+ 
+ - Para instalar [click aqui](https://docs.mongodb.com/manual/installation/)
+ 
+ ### Iniciando com o mongo
+ 
+ - Vá no terminal e digite: `mongo`
+ - Usando o banco dessa aplicação: `use globo`
+ - Adicionando comentario: `db.hastags.save({nome: "nome-qualquer", comentario: "comentario-qualquer"})
+ - PS: optei por fazer dessa maneiro por motivos de tempo, e o mongoLab estava dando error na aplicação e eu estava sem tempo
+  
 
 # Dependência usadas no projeto
 
